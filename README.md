@@ -3,5 +3,5 @@ Python Basic GUI with tkinter
 
 Number Guessing
 
-To run this game
+To run this game<br>
 `$ python game.py`
