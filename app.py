@@ -8,7 +8,7 @@ class Application:
 
     def __init__(self):
         self.root = tk.Tk()
-        self.root.geometry('300x200')
+        self.root.geometry('360x200')
         self.root.resizable(width=False, height=False)
         self.root.title('Number Guessing')
         self.guessNumber = GuessNumber.GuessNumber()
@@ -19,7 +19,7 @@ class Application:
         infoFont = font.Font(family='Helvetica', size=18)
         self.mlabel = tk.Label(fg='#f000cc',
                   bg='#88c0c0',
-                  width=12,
+                  width=18,
                   font=titleFont)
         self.titleText()
         self.mlabel.pack(pady=10)
